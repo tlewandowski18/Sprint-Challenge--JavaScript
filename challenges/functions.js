@@ -41,7 +41,7 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 
 // Explain in your own words why nestedfunction can access the variable internal.
 
-// Explanation: 
+// Explanation: Lexical scoping allows functions to reach variables declared outside the scope of the function - meaning variables declared in the global scope or Parent, Grandparent, etc. functions.  Functions can reach outward for variables but not inward.  So, for example, myFunction would not be able to access a variable declared in nested Function. 
 
 
 const external = "I'm outside the function";
